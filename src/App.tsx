@@ -1,11 +1,13 @@
+import { Layout } from "./components/Layout"
+import { Hero } from "./components/sections/Hero"
 
 function App() {
 
 
   return (
-    <>
-     <h1>hello</h1>
-    </>
+    <Layout title="EdgeAI">
+      <Hero />
+    </Layout>
   )
 }
 
