@@ -7,7 +7,7 @@ export const Numbers = () => {
       <Container className="flex justify-center align-center">
         <div className="mx-auto lg:mx-o p-5 sm:p-6 sm:py-8 max-w-5xl rounded-3xl bg-box-bg *
                         border border-box-border shadow-lg shadow-box-shadow md:divide-x divide-box-border *
-                        grid grid-cols-2 md:grid-cols-4 mb-4">
+                        grid grid-cols-2 md:grid-cols-4 mb-5">
 
           {/* Numbers Section */}
           <div className="text-center px-5">
