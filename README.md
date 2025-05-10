@@ -54,8 +54,8 @@
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/.git
-cd ai-saas-landing-page
+git clone https://github.com/yourusername/landing-page.git
+cd landing-page
 ```
 
 ## 💻 Code Snippets
