@@ -1,5 +1,5 @@
 import { Container } from "../shared/Container"; 
-import logo from "../../../public/assets/icon.svg"; 
+import logo from "/assets/icon.svg"; 
 import { NavItem } from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore"; // Import the Zustand theme store
 import { BtnLink } from "../shared/BtnLinks";
