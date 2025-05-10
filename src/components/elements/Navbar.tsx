@@ -1,9 +1,8 @@
-import { Container } from "../shared/Container"; // Import the Container component
-import logo from "../../assets/logos/icon.svg"; // Import the logo image
-import { NavItem } from "../shared/NavItem"; // Import the NavItem component
-
+import { Container } from "../shared/Container"; 
+import logo from "../../../public/assets/icon.svg"; 
+import { NavItem } from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore"; // Import the Zustand theme store
-import { BtnLink } from "../shared/BtnLinks"; // Import the button link component
+import { BtnLink } from "../shared/BtnLinks";
 
 // Define the navigation items (href and text)
 export const navItems = [
@@ -13,7 +12,7 @@ export const navItems = [
   { href: "#pricing", text: "Pricing" },
 ];
 
-// Define the Navbar component
+// Defined Navbar component
 export const Navbar = () => {
   const { toggleTheme, theme } = useThemeStore(); // Get theme state and toggle function
 
