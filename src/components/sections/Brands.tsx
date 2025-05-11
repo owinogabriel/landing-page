@@ -21,7 +21,7 @@ export const Brands = () => {
         {/* centered the title and constrain its width. */}
         <div className="text-center max-w-3xl mx-auto">
           {/* Custom title component displaying the section's heading. */}
-          <Title>Trusted by Industry Leaderss</Title> {/* Note: There might be a typo in "Leaderss". */}
+          <Title>Trusted by Industry Leaderss</Title> 
         </div>
 
         {/* Div to arrange the logos in a flexible, centered, and wrapping layout with a gap. */}
@@ -37,7 +37,7 @@ export const Brands = () => {
 
               {/* Image tag to display the brand logo. */}
               <img
-                src={`src/assets/logos/${logo}.png`} // Dynamically constructing the image source path.
+                src={`assets/logos/${logo}.png`} // Dynamically constructing the image source path.
                 alt="logo" 
                 width="100"
                 height="60"
