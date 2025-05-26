@@ -14,7 +14,7 @@ export const navItems = [
 
 // Defined Navbar component
 export const Navbar = () => {
-  const { toggleTheme, theme } = useThemeStore(); // Get theme state and toggle function
+  const { toggleTheme, theme } = useThemeStore(); //Get theme state and toggle function
 
   return (
     <header className="absolute inset-x-0 top-0 z-50 py-6">
