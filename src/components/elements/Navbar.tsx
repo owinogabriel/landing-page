@@ -1,5 +1,5 @@
-import { Container } from "../shared/Container"; 
-import logo from "/assets/icon.svg"; 
+import { Container } from "../shared/Container";
+import logo from "/assets/icon.svg";
 import { NavItem } from "../shared/NavItem";
 import { useThemeStore } from "../../store/ThemeStore"; // Import the Zustand theme store
 import { BtnLink } from "../shared/BtnLinks";
@@ -23,7 +23,7 @@ export const Navbar = () => {
         {/* Use the Container component for consistent padding and centering */}
         <nav className="w-full flex justify-between gap-6 relative">
           {/* Navigation element, flexbox for layout, relative positioning */}
-          
+
           {/* Logo */}
           <div className="min-w-max inline-flex relative">
             {/* Container for the logo and brand name, inline-flex for alignment */}
@@ -45,18 +45,18 @@ export const Navbar = () => {
                        border-x border-x-box-border lg:border-x-0 lg:h-auto h-0 overflow-hidden"
           >
             {/* Flex container for nav items and button.
-                * Mobile: column, absolute, full-width, hidden overflow.
-                * Desktop: row, static, transparent background, visible overflow.
-                */}
+             * Mobile: column, absolute, full-width, hidden overflow.
+             * Desktop: row, static, transparent background, visible overflow.
+             */}
             <ul
               className="border-t border-box-border lg:border-t-0 px-6 lg:px-0 
                          pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-3 
                          text-lg text-heading-2 w-full lg:justify-center lg:items-center"
             >
               {/* Unordered list for navigation items.
-                * Mobile: border-top, padding.
-                * Desktop: no border, no padding, row layout, centered.
-                */}
+               * Mobile: border-top, padding.
+               * Desktop: no border, no padding, row layout, centered.
+               */}
               {navItems.map((item, key) => (
                 // Map through the navItems array to render each item
                 <NavItem href={item.href} text={item.text} key={key} />
@@ -69,9 +69,9 @@ export const Navbar = () => {
                          px-6 lg:px-0"
             >
               {/* Container for the "Get Started" button.
-                * Mobile: full-width, padding, bottom border.
-                * Desktop: min-width, no padding, no border.
-                */}
+               * Mobile: full-width, padding, bottom border.
+               * Desktop: min-width, no padding, no border.
+               */}
               <BtnLink text="Get Started" href="#cta" className="" />
               {/* Render the button link component */}
             </div>
@@ -84,8 +84,8 @@ export const Navbar = () => {
               className="outline-hidden flex relative text-heading-2 rounded-full p-2 lg:p-3 border border-box-border cursor-pointer"
             >
               {/* Button to toggle the theme (light/dark).
-                * Styled as a circular button with padding and border.
-                */}
+               * Styled as a circular button with padding and border.
+               */}
               {theme === "dark" ? (
                 // Render a moon icon if the current theme is dark
                 <svg
