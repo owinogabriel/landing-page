@@ -1,9 +1,7 @@
-import { Button } from "../shared/Button"
-import { Container } from "../shared/Container"
-import { Paragraph } from "../shared/Paragraph"
-import { Numbers } from "./Numbers"
-
-
+import { Button } from "../shared/Button";
+import { Container } from "../shared/Container";
+import { Paragraph } from "../shared/Paragraph";
+import { Numbers } from "./Numbers";
 
 export const Hero = () => {
   return (
@@ -38,9 +36,12 @@ export const Hero = () => {
           {/* Form input */}
           <div className="mt-10 w-full flex max-w-md  mx-auto lg:mx-0">
             <div className="flex sm:flex-row flex-col gap-5 w-full">
-              <form action="#" className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 
+              <form
+                action="#"
+                className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 
                                        shadow-lg shadow-box-shadow border border-box-border 
-                                       bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary">
+                                       bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary"
+              >
                 <span className="min-w-max pr-2 border-r border-box-border">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -61,30 +62,31 @@ export const Hero = () => {
                 <input
                   type="email"
                   placeholder="lyongabriel746@gmail.com"
-                  className="w-full py-3 outline-none bg-transparent" />
+                  className="w-full py-3 outline-none bg-transparent"
+                />
                 <Button className="min-w-max text-white">
-                  <span className=" relative z-[15]">
-                    Get Started
-                  </span>
+                  <span className=" relative z-[15]">Get Started</span>
                 </Button>
               </form>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-1 lg:h-auto relative 
-                  lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
-
+        <div
+          className="flex flex-1 lg:h-auto relative 
+                  lg:max-w-non lg:mx-0 mx-auto max-w-3xl"
+        >
           {/* Hero Image */}
           <img
             src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Hero Image"
             width={2350}
             height={2359}
-            className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-non max-h-96" />
+            className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-non max-h-96"
+          />
         </div>
       </Container>
       <Numbers />
     </section>
-  )
-}
+  );
+};
