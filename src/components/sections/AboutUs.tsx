@@ -1,9 +1,7 @@
-import { Info } from "../cards/info"
-import { Container } from "../shared/Container"
-import { Paragraph } from "../shared/Paragraph"
-import { Title } from "../shared/Title"
-
-
+import { Info } from "../cards/info";
+import { Container } from "../shared/Container";
+import { Paragraph } from "../shared/Paragraph";
+import { Title } from "../shared/Title";
 
 export const AboutUs = () => {
   return (
@@ -24,11 +22,12 @@ export const AboutUs = () => {
             We are on a mission to empower businesses woth transformative AI
             technology. Our team of eperts combines industries-leading research
             with innovative algorithms to deliver a platform that adapts to your
-            unique needs. Join us and lead the digital revolution in your industry.
+            unique needs. Join us and lead the digital revolution in your
+            industry.
           </Paragraph>
 
           <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
-          <Info
+            <Info
               title="Mission"
               description="Our mission is to use AI for the good of humanity and the planet."
             >
@@ -71,7 +70,6 @@ export const AboutUs = () => {
           </div>
         </div>
       </Container>
-
     </section>
-  )
-}
+  );
+};
