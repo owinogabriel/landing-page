@@ -1,4 +1,3 @@
-
 import { pricingPlans } from "../../utulis/pricing-plan";
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";

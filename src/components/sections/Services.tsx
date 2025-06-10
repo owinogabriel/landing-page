@@ -1,9 +1,8 @@
-import { services } from "../../utulis/services-data"
-import { Service } from "../cards/Service"
-import { Container } from "../shared/Container"
-import { Paragraph } from "../shared/Paragraph"
-import { Title } from "../shared/Title"
-
+import { services } from "../../utulis/services-data";
+import { Service } from "../cards/Service";
+import { Container } from "../shared/Container";
+import { Paragraph } from "../shared/Paragraph";
+import { Title } from "../shared/Title";
 
 export const Services = () => {
   return (
@@ -24,10 +23,11 @@ export const Services = () => {
               key={key}
               title={services.title}
               description={services.description}
-              icon={services.icon} />
+              icon={services.icon}
+            />
           ))}
         </div>
       </Container>
     </section>
-  )
-}
+  );
+};
