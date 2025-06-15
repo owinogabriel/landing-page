@@ -20,11 +20,11 @@
 
 ## ⚙️ Tech Stack
 
-- **React** – For building the user interface
-- **Vite** – For fast development and optimized builds
-- **Tailwind CSS** – For rapid, responsive styling using a design token system
-- **TypeScript** – For type safety and modern JavaScript features
-- **Zustand** – For lightweight state management and theme persistence
+>- **React** – For building the user interface
+>- **Vite** – For fast development and optimized builds
+>- **Tailwind CSS** – For rapid, responsive styling using a design token system
+>- **TypeScript** – For type safety and modern JavaScript features
+>- **Zustand** – For lightweight state management and theme persistence
 
 ## ⚡️ Features
 
