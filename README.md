@@ -28,19 +28,19 @@
 
 ## ⚡️ Features
 
-- **Modern Landing Page Design:**  
+>- **Modern Landing Page Design:**  
   A sleek, responsive design that highlights your AI SaaS product’s unique value proposition.
 
-- **Dark/Light Mode:**  
+>- **Dark/Light Mode:**  
   Seamlessly toggle between dark and light themes with Zustand and Tailwind CSS design tokens.
 
-- **Interactive Components:**  
+>- **Interactive Components:**  
   Build reusable sections such as Hero, Features, Pricing, and CTA using React components.
 
-- **Animated Elements:**  
+>- **Animated Elements:**  
   Smooth hover animations and gradient effects for a dynamic user experience.
 
-- **State Management:**  
+>- **State Management:**  
   Global UI state management with Zustand ensures persistent theme settings across sessions.
 
 ## 👌 Quick Start
